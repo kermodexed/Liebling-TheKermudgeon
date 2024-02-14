@@ -20,9 +20,11 @@ This footer template is shared across all the pages.
           <span class="icon-twitter" aria-hidden="true"></span>
         </a>
       {{/if}}
+      {{!-- Added by The Kermudgeon to override RSS feed --}}
+      {{!--
       <a href="{{@site.url}}/rss" aria-label="RSS">
         <span class="icon-rss" aria-hidden="true"></span>
-      </a>
+      </a> --}}
     </nav>
     <p class="m-footer-copyright">
       <span>{{@site.title}} &copy; {{date format="YYYY"}}</span>
